@@ -1,0 +1,32 @@
+/* diferentes formas de cores: https://tailwindcss.com/docs/colors */
+/* Declarando Variaveis CSS */
+:root{
+    --white: #ffffff;
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-600: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+
+    --green-500: #00875f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Faz o margin, border e o padding nunca aumentem sua largura e altura, faz que os elementos se espremam para dentro */
+}
+
+body {
+    background-color: var(--gray-900);
+    color: var(--gray-300);
+    -webkit-font-smoothing: antialiased; /* padronização das fontes ficarem mais detalhadas */
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /* Usar rem(unidade de medida relativa) para melhor acessibilidade do projeto */
+}
