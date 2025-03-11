@@ -11,7 +11,7 @@ export function Comment() {
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
-                            <strong>Luan Richard</strong>
+                            <strong>Joanderson Sol</strong>
                             <time title="06 de fevereiro de 2025 às 11:23" dateTime="2025-02-06T11:23:40">Cerca de 2h atrás</time>
                         </div>
 
@@ -19,7 +19,7 @@ export function Comment() {
                             <Trash size={20} />
                         </button>
                     </header>
-                    <p>Muito bom Devon, parabéns!! 👏👏</p>
+                    <p>Muito bom Goku, parabéns!! 👏👏</p>
                 </div>
 
                 <footer>
