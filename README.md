@@ -1,56 +1,44 @@
-Evolução em React - Trilha Porto Digital & Rocketseat
+# Evolução em React - Trilha Porto Digital & Rocketseat
 
 Este repositório documenta minha evolução na aprendizagem de React, seguindo a trilha oferecida pelo Porto Digital em parceria com a Rocketseat.
 
-📌 Sobre
+## 📌 Sobre
 
 Aqui você encontrará projetos, desafios e anotações desenvolvidas ao longo do curso, cobrindo conceitos fundamentais e avançados de React, incluindo:
 
-Compilers
+- **Compilers**
+- **Bundlers**
+- **Fundamentos do React**
+- **Bibliotecas**
+- **CSS Modules e Global**
+- **Testes e boas práticas no desenvolvimento React**
 
-Bundlers
+## 🛠 Tecnologia Utilizada
 
-Fundamentos do React
+- **Linguagem**: JavaScript / TypeScript
+- **Framework**: React
+- **Bibliotecas Complementares Por Enquanto**: Date-FNS
+- **Ferramentas de Desenvolvimento**: Vite
 
-Bibliotecas
+## 🚀 Como Utilizar
 
-CSS Modules e Global
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/luanrichardsz/reactRocketseat
 
-Testes e boas práticas no desenvolvimento React
+2. Acesse a pasta do projeto
+   ```bash
+   cd reactRocketseat/projetos/firstDraft
+   
+4. Instale as dependências
+   ```bash
+   npm install
 
-🛠 Tecnologia Utilizada
+5. Inicie o projeto
+   ```
+   npm run dev
 
-Linguagem: JavaScript / TypeScript
-
-Framework: React
-
-Bibliotecas Complementares Por Enquanto: Date-FNS
-
-Ferramentas de Desenvolvimento: Vite
-
-🚀 Como Utilizar
-
-Clone o repositório:
-
-git clone https://github.com/luanrichardsz/reactRocketseat 
-
-Acesse a pasta do projeto:
-
-cd reactRocketseat/projetos/firstDraft  
-
-Instale as dependências:
-
-npm install  
-
-Inicie o projeto:
-
-npm run dev  
-
-📬 Contato
-
+## 📬 Contato
 Caso tenha dúvidas ou sugestões, fique à vontade para entrar em contato!
 
 🔗 Meu LinkedIn
-
-📌 Observação: Este repositório tem fins acadêmicos e os códigos aqui presentes são utilizados apenas para estudo e aprendizado.
-
