@@ -8,8 +8,7 @@ import { useState } from 'react'
 
 export function Post({ author, publishedAt, content}) {
     const [comments, setComments] = useState([ // estado = variaveis que eu quero que o componente monitore
-        1,
-        2
+        'Muito bom Goku, parabens!! 👏👏'
     ])
 
     const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'ás' HH:mm'h'",{
@@ -23,6 +22,8 @@ export function Post({ author, publishedAt, content}) {
 
     function handleCreateNewComment(){
         event.preventDefault()
+
+        const newCommentText = event.
 
         setComments([...comments, comments.length + 1])
     }
@@ -69,7 +70,7 @@ export function Post({ author, publishedAt, content}) {
         
         <div className={styles.commentList}>
             {comments.map(comment => {
-                return <Comment />
+                return <Comment content={comment} />
             })}
         </div>
         
